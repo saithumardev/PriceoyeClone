@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ticker {
+    background-color: aqua;
+    height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #2596be;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.search {
+    position: relative;
+}
+
+.text {
+    padding: 10px;
+    color: gray;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+
+.search i {
+    color: #2596be;
+    position: absolute;
+    left: 373px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.login {
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2596be;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.register1 {
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #2596be;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.register {
+    margin-right: 20px;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 60%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper2 {
+    width: 100%;
+    height: 15%;
+  }
+  .swiper2>.swiper-wrapper>.swiper-slide>img{
+    height: 70px!important;
+    width: 70px!important;
+    margin-left: 38px;
+  }
+  .swiper2>.swiper-wrapper>.swiper-slide>p{
+   font-size: 10px;
+   text-align: center;
+  }
+  .swiper2>.swiper-wrapper>.swiper-slide:hover{
+    background-color: gray;
+  }
+
+
+
+
+  .whitecard{
+    height: 290px;
+    width: 249.444px;
+    background-color:red;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+  }
+  .whitecard img{
+    margin-top: 20px;
+  }
+  .review{
+    background-color: #ebd288;
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 100px;
+  }
+  .review i{
+    color: orange;
+  }
+  del{
+    color: red;
+  }
+  del span{
+    color: gray;
+  }
+  .title{
+    width: 200px;
+  }
+
+
+  .swiper3 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+ 
